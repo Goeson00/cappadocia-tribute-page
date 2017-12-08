@@ -49,7 +49,7 @@ h1 small {
     color: inherit;
     display: block;
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-size: 27%;
+    font-size: .27em;
     letter-spacing: .15em;
     padding-top: 1.3em;
 }
@@ -190,24 +190,24 @@ MEDIA QUERIES
     .jumbotron h1 {
         font-size: 36px;
     }
-
+    
     .jumbotron p {
         font-size: 16px;
         width: 50%;
     }
-
+    
 }
 
 @media (min-width: 992px) {
-
+    
     section {
         padding: 100px 0;
     }
-
+    
     h2 {
         margin-bottom: 40px;
     }
-
+    
     .jumbotron p {
         font-size: 18px;
     }
@@ -232,7 +232,7 @@ MEDIA QUERIES
     .jumbotron p {
         font-size: 20px;
     }
-
+    
 }
 
 @media (min-height: 800px) {
@@ -241,6 +241,10 @@ MEDIA QUERIES
         padding: 100px 0;
     }
     
+    .jumbotron h1 {
+        font-size: 44px;
+    }
+
     .intro-text-wrapper {
         bottom: 100px;
     }
